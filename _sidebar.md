@@ -1,5 +1,7 @@
 - javascript
-  - [1]()
+  - [1. DOMContentLoaded与load的区别](fe/javascript/dom-load)
+  - [2. script标签的defer和async](fe/javascript/async-defer)
+  - [3. DOM、BOM](fe/javascript/dom-bom)
 - HTML/CSS
   - [1]()
 - Web
