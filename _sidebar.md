@@ -2,6 +2,8 @@
   - [1. DOMContentLoaded与load的区别](fe/javascript/dom-load)
   - [2. script标签的defer和async](fe/javascript/async-defer)
   - [3. DOM、BOM](fe/javascript/dom-bom)
+  - [3. 数据类型](fe/javascript/data-type)
+  - [3. typeof、instance 区别](fe/javascript/typeof-instance)
 - HTML/CSS
   - [1]()
 - Web
