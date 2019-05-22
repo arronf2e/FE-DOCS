@@ -9,6 +9,7 @@
   - [8. toString、valueOf 区别](fe/javascript/toString-valueOf)
   - [9. javascript垃圾回收机制](fe/javascript/garbage-collection)
   - [10. 闭包](fe/javascript/closure)
+  - [11. 数组](fe/javascript/array)
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
