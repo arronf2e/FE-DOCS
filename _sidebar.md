@@ -10,6 +10,8 @@
   - [9. javascript垃圾回收机制](fe/javascript/garbage-collection)
   - [10. 闭包](fe/javascript/closure)
   - [11. 数组](fe/javascript/array)
+  - [12. this](fe/javascript/this)
+  - [13. bind、call、apply](fe/javascript/bind-call-apply)
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
@@ -28,4 +30,4 @@
   - [1. 两数之和](fe/engineer/1)
   - [2. 两数相加](fe/engineer/2)
 - 其他
-  - [1]()
+  - [1. 正则表达式](fe/other/regexp)
