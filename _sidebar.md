@@ -2,10 +2,15 @@
   - [1. DOMContentLoaded与load的区别](fe/javascript/dom-load)
   - [2. script标签的defer和async](fe/javascript/async-defer)
   - [3. DOM、BOM](fe/javascript/dom-bom)
-  - [3. 数据类型](fe/javascript/data-type)
-  - [3. typeof、instance 区别](fe/javascript/typeof-instance)
+  - [4. 数据类型](fe/javascript/data-type)
+  - [5. typeof、instance 区别](fe/javascript/typeof-instance)
+  - [6. 栈内存、堆内存](fe/javascript/stack-heap)
+  - [7. 深拷贝、浅拷贝](fe/javascript/shallow-deep-clone)
+  - [8. toString、valueOf 区别](fe/javascript/toString-valueOf)
+  - [9. javascript垃圾回收机制](fe/javascript/garbage-collection)
+  - [10. 闭包](fe/javascript/closure)
 - HTML/CSS
-  - [1]()
+  - [position各值详解](fe/html-css/position)
 - Web
   - [1]()
 - React
