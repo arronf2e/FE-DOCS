@@ -12,6 +12,9 @@
   - [11. 数组](fe/javascript/array)
   - [12. this](fe/javascript/this)
   - [13. bind、call、apply](fe/javascript/bind-call-apply)
+  - [14. Object.defineProperty](fe/javascript/defineProperty)
+  - [15. 创建对象的几种模式](fe/javascript/create-object)
+  - [16. 原型](fe/javascript/prototype)
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
