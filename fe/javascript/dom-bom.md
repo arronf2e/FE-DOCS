@@ -15,6 +15,7 @@
 
 
 
+
 ### 浏览器对象模型（BOM）
 
 核心： window  
@@ -29,3 +30,28 @@
 | location.port | 端口 | 
 | location.search | query | 
 | location.protocol | 协议类型 |
+
+
+- window
+
+> 浏览器实例，Global 对象。全局作用域中定义的变量、函数都会变成 window 的属性与方法
+
+```
+var num = 30
+function getNum() {
+    console.log(this, this.num)
+}
+getNum()                // Window 30
+console.log(window.num) // 30
+window.getNum()         // Window 30
+```
+
+```
+window.screenTop 返回当前窗口距离屏幕顶端的距离
+window.screenLeft 返回当前窗口距离屏幕左侧边的距离
+
+window.innerWidth   返回当前页面的宽度
+window.innerHeight  返回当前页面的高度
+window.outerWidth   返回整个浏览器本身的宽度
+window.outerHeight  返回整个浏览器本身的高度
+```

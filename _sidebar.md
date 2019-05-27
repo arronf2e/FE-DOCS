@@ -15,22 +15,28 @@
   - [14. Object.defineProperty](fe/javascript/defineProperty)
   - [15. 创建对象的几种模式](fe/javascript/create-object)
   - [16. 原型](fe/javascript/prototype)
+  - [17. 事件](fe/javascript/js-event)
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
   - [1]()
 - React
-  - [1]()
+  - [1. setState什么时候是同步，什么时候是异步的](fe/react/setstate)
 - Vue
-  - [1]()
+  - [1. event bus 实现](fe/vue/event-bus)
+  - [2. 前端路由的实现](fe/vue/client-router)
+  - [3. Proxy 与 defineProperty 的比较](fe/vue/defineproperty-vs-proxy)
 - node
   - [1]()
 - 小程序
   - [1]()
 - 工程化
   - [1]()
-- 算法（leetcode）
-  - [1. 两数之和](fe/engineer/1)
-  - [2. 两数相加](fe/engineer/2)
+- 算法
+  - [1. 两数之和](fe/algorithm/1)
+  - [2. 数组扁平化](fe/algorithm/array-flat)
+  - [3. fibonacci 算法与优化](fe/algorithm/fibonacci)
 - 其他
   - [1. 正则表达式](fe/other/regexp)
+  - [2. pwa](fe/other/pwa)
+  - [3. 函数式编辑](fe/other/functional)
