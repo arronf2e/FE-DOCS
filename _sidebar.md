@@ -21,7 +21,7 @@
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
-  - [1]()
+  - [1. 跨域解决方案](fe/web/cors)
 - React
   - [1. setState什么时候是同步，什么时候是异步的](fe/react/setstate)
 - Vue
