@@ -65,8 +65,59 @@ xhr.abort()
  wss: //
  ```
 
- - 创建 
+ - 创建与关闭
  ```
  var socket = new WebSocket(url)
+ socket.close() 
  ```
 
+ - 发送与接收数据
+
+ > 发送的数据只能是纯文本数据，如遇复杂数据结构，必须序列化；同样返回的数据也是纯文本
+
+```
+var socket = new WebSocket(url)
+
+// 发送
+socket.send('hello world')
+
+// 接收 
+socket.onmessage = function(event) {
+    console.log(event.data)  // 接收的数据
+}
+
+// 序列化
+var data = {
+    name: 'arron',
+    age: 26
+}
+socket.send(JSON.stringify(data))
+socket.onmessage = function (event) {
+    console.log(JSON.parse(event.data))
+}
+
+```
+
+- 状态 
+ - 0，正在建立连接
+ - 1，已经建立连接
+ - 2，正在关闭连接
+ - 3，已经关闭连接
+
+- 事件 （只支持DOM 0 级事件）
+ - open，成功建立连接时触发
+ - error，发生错误时触发，连接不能持续
+ - close，关闭连接时触发
+
+```
+var socket = new WebSocket(url)
+socket.onopen = function () {
+    console.log('ws open')
+}
+socket.onerror = function () {
+    console.log('ws error')
+}
+socket.onclose = function () {
+    console.log('ws close')
+}
+```
