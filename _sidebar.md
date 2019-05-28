@@ -16,6 +16,8 @@
   - [15. 创建对象的几种模式](fe/javascript/create-object)
   - [16. 原型](fe/javascript/prototype)
   - [17. 事件](fe/javascript/js-event)
+  - [18. 错误处理](fe/javascript/error-handler)
+  - [19. XMLHttpRequest](fe/javascript/xmlhttprequest)
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
