@@ -73,7 +73,7 @@ sayName()   // 全局name
 arron.sayName()  // 局部name
 ```
 
-- Arrow Function  this 指定定义箭头函数的上下文
+- Arrow Function  this 指向定义箭头函数的上下文
 
 ```
 const obj = {
