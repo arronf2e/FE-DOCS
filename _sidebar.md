@@ -21,10 +21,12 @@
   - [20. XMLHttpRequest](fe/javascript/xmlhttprequest)
   - [21. 函数柯里化](fe/javascript/currying)
   - [22. 事件循环](fe/javascript/eventloop)
+  - [23. 浏览器存储，cookie，localStorage、sessionStorage、indexedDB](fe/javascript/storage)
 - HTML/CSS
   - [position各值详解](fe/html-css/position)
 - Web
   - [1. 跨域解决方案](fe/web/cors)
+  - [1. 网络安全：xss](fe/web/xss)
 - React
   - [1. setState什么时候是同步，什么时候是异步的](fe/react/setstate)
 - Vue
