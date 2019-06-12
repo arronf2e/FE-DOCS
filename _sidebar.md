@@ -26,7 +26,8 @@
   - [position各值详解](fe/html-css/position)
 - Web
   - [1. 跨域解决方案](fe/web/cors)
-  - [1. 网络安全：xss](fe/web/xss)
+  - [2. 网络安全：xss](fe/web/xss)
+  - [3. HTTP缓存控制](fe/web/http-cache)
 - React
   - [1. setState什么时候是同步，什么时候是异步的](fe/react/setstate)
 - Vue
