@@ -127,7 +127,7 @@ function instance0f(a, A) {
 
 有趣的现象：
 ```
-// 這兩個互為彼此的 instance
+// 互为彼此的 instance
 console.log(Function instanceof Object); // true
 console.log(Object instanceof Function); // true
   
